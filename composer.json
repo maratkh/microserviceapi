@@ -1,0 +1,21 @@
+{
+    "name": "bandacomanda/api",
+    "description": "Private microservices API",
+    "type": "library",
+    "license": "Proprietary Mercury Pos",
+    "authors": [
+        {
+            "name": "Igor Manturov Jr.",
+            "email": "igor.manturov.jr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mercury\\Api\\": "src/"
+        }
+    }
+}
